@@ -11773,9 +11773,17 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-2:-What-is-an-appropriate-set-of-hypotheses-for-the-task?-What-kind-of-statistical-test-do-you-expect-to-perform?">Question 2: What is an appropriate set of hypotheses for the task? What kind of statistical test do you expect to perform?<a class="anchor-link" href="#Question-2:-What-is-an-appropriate-set-of-hypotheses-for-the-task?-What-kind-of-statistical-test-do-you-expect-to-perform?">&#182;</a></h3><blockquote><p>H<sub>0</sub>: No difference between task completion time between congruent and incongruent conditions</p>
-<p>H<sub>1</sub>: Difference between task completion time between congruent and incongruent condition</p>
-<p>I expect to perform a 2 sided, dependent t-test to see if there is a statistically significant difference between task completion time among the two conditions. I am looking to see whether there is a difference (positive or negative) in completion time. Further, since the same participants are performing the task in both conditions, the test is dependent.</p>
+<h3 id="Question-2:-What-is-an-appropriate-set-of-hypotheses-for-the-task?-What-kind-of-statistical-test-do-you-expect-to-perform?">Question 2: What is an appropriate set of hypotheses for the task? What kind of statistical test do you expect to perform?<a class="anchor-link" href="#Question-2:-What-is-an-appropriate-set-of-hypotheses-for-the-task?-What-kind-of-statistical-test-do-you-expect-to-perform?">&#182;</a></h3><blockquote><p>H<sub>0</sub>: $\mu$ = $\mu$<sub>0</sub></p>
+<p>H<sub>1</sub>: $\mu$ $\neq \mu$<sub>0</sub></p>
+<p>$\mu$ is the population mean for the congruent condition, $\mu$<sub>0</sub> is the population mean after introducing change (in this case, the incongruent task)</p>
+<p>H<sub>0</sub> or Null Hypothesis: No difference in the average completion time for the population between congruent and incongruent conditions</p>
+<p>H<sub>1</sub> or Alternative Hypothesis: There is a significant difference in the average completion time, positive or negative, for the population between congruent and incongruent conditions</p>
+</blockquote>
+<p><br><br></p>
+<blockquote><p>I expect to perform a 2 sided, dependent t-test to see if there is a statistically significant difference between <strong>average</strong> task completion time for the population among the two conditions.</p>
+<p><em>Regarding normality</em>: We can assume a normal distribution for the population as we can expect perceptual test results, like regular test results, to have most perform around a central area with markedly lower or higher scores being less likely.</p>
+<p><em>Justification for t-test</em>: I am looking to see whether there is a difference (positive or negative) in completion time (2-sided). Further, since the same participants are performing the task in both conditions, the test is dependent.</p>
+<p><em>Given the small sample size</em>: The t-test is still appropriate to use given the within-pair correlation is high (r=0.96695398029, taken from getting the square root of coeff. of determination calculated later in this notebook). Please refer to <a href="http://pareonline.net/getvn.asp?v=18&amp;n=10">http://pareonline.net/getvn.asp?v=18&amp;n=10</a> for more details (Page 6 to be exact).</p>
 </blockquote>
 
 </div>
